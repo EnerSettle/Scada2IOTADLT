@@ -1,7 +1,4 @@
 # Scada2IOTADLT
 Scada Canbus/TCP gateway to IOTA Tangle Distributed Ledger Interface 
-Added UML Overview Diagram explaining Enersettle Concept 
-Settled on Rust as the dev language for integration oracles into APIs for IOTA  and to connect to SAFENetwork and IPFS Storage networks
-QUPLA Script  Driven SCs  operating on QNode Test Network  to be tested and validated in handling of monitoring and control plane generated logging info for posting to IOTA TANGLE from  an EnerSettle oracle attached QNode Gateway
-The iotaledger/bee which consolidates and ports IOTA's current reference platforms for IOTA and QUBIC will be the baseline platform , which itself  attached to the IoT controllers (Raspberry Pi or similar) managing the Battery controller and direction to ground/heat sink  behaviour of the electrical power output, where behaviour is primarily driven by input signalling from wind speed, temperature and drive speed sensors mounted on the TWIND Power electrical generator feeding the batteries, and for secondary and excpetion operational use cases the same behaviour is fetched from oracle mounted rule sets governing such behaviour  and or fetchec from a human machine interface HMI piloted by the DER Distributed Energy Resource Manager
-Selection of Edge SCADA Gateway for operation in the Raspberry Pi IoT device core base  is thingboard https://thingsboard.io/docs/iot-gateway/what-is-iot-gateway/ https://github.com/thingsboard/thingsboard 
+Deprecated UML Overview Diagram explaining Enersettle Concept 30 Jul 2020 
+to be replaced by 0.7 version IoT IOTA intgration w/ Cardano under study udring Aug 2020
